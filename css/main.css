@@ -1,0 +1,77 @@
+.ba-container{
+	padding: 0 10px;
+    width: 100%;
+    max-width: 1220px;	
+}
+
+.ba-grid{
+    margin: 0 -10px;
+}
+.ba-grid:before,
+.ba-grid:after{
+    content: '';
+    clear: both;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+[class*="ba-width-"],
+[class^="ba-width-"]{
+	float: left;
+	padding: 0 0 10px 10px;
+	box-sizing: border-box;
+	display: table;
+}
+
+.ba-width-1{
+    width: 8.3333%;
+}
+
+.ba-width-2{
+    width: 16.6666%;
+}
+
+.ba-width-3{
+    width: 25%;
+}
+
+.ba-width-4{
+    width: 33.3333%;
+}
+
+.ba-width-5{
+    width: 41.6665%;
+}
+
+.ba-width-6{
+    width: 50%;
+}
+
+.ba-width-7{
+    width: 58.3333%;
+}
+
+.ba-width-8{
+    width: 66.6666%;
+}
+
+.ba-width-9{
+    width: 75%;
+}
+
+.ba-width-10{
+    width: 83.3333%;
+}
+
+.ba-width-11{
+    width: 91.6666%
+}
+
+.ba-width-12{
+    width: 100%;
+}
+
+
